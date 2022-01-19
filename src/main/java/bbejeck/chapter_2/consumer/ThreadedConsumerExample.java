@@ -20,6 +20,7 @@ public class ThreadedConsumerExample {
     private int numberPartitions;
     private ExecutorService executorService;
 
+
     public ThreadedConsumerExample(int numberPartitions) {
         this.numberPartitions = numberPartitions;
     }
